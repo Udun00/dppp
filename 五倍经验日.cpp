@@ -1,7 +1,8 @@
-#### 五倍经验日
-#### 题目：https://www.luogu.com.cn/problem/P1802
-#### 思路：01背包的变形版，只是输了也有价值，且每个人都会挑战，dp[i]代表有i瓶药的最大价值，要用long long!!!
-```
+/*
+ 五倍经验日
+ 题目：https://www.luogu.com.cn/problem/P1802
+ 思路：01背包的变形版，只是输了也有价值，且每个人都会挑战，dp[i]代表有i瓶药的最大价值，要用long long!!!
+*/
 #include<stdio.h>
 long long int w[1100],l[1100],dp[1100],u[1100];
 long long int max(long long int a,long long int b)
@@ -29,4 +30,3 @@ int main()
     }
     printf("%lld",5*dp[m]);
 }
-```
