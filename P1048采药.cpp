@@ -50,5 +50,4 @@ int main()
     printf("%d",dp[t]);
     return 0;
 }
-
 ```
