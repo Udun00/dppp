@@ -1,8 +1,9 @@
-#### 疯狂的采药
-#### 题目：https://www.luogu.com.cn/problem/P1616
-#### 思路：完全被背包的模板，只需要将dp的第二循环倒序
-**代码实现**
-```
+/*
+ 疯狂的采药
+ 题目：https://www.luogu.com.cn/problem/P1616
+ 思路：完全被背包的模板，只需要将dp的第二循环倒序
+*/
+//代码实现
 #include<stdio.h>
 int v[1000],w[1000],dp[1000]={0};
 int max(int a,int b)
@@ -26,4 +27,3 @@ int main()
     }
     printf("%d",dp[t]);
 }
-```
